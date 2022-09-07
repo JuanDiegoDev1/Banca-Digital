@@ -1,0 +1,26 @@
+:root{
+    --primary:#6209DB;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.navbar{
+    min-height: 90px;
+}
+.text-primary{
+    color: var(--primary)!important;
+}
+.btn-primary{
+    background-color: var(--primary);
+    border-color: var(--primary);
+}
+.btn-primary:hover{
+    background-color: var(--primary);
+    border-color: var(--primary);
+}
+
+.bg-primary{
+    background-color: var(--primary) !important;
+    color: white;
+}
